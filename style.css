@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    background-color: rgb(64, 72, 92);
+} */
+
+.heading h1{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+.option{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.option div{
+    width: 45px;
+    height: 2px;
+    background: white;
+    margin: 9px;
+}
+
+.options{
+    width: 350px;
+    height: 100vh;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    /* animation: options linear 0.3s; */
+}
+
+.options h1{
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+
+.theme{
+    margin-top: 70px;
+    color: white;
+}
+
+.theme h3{
+    display: inline;
+}
+
+.theme h3:nth-child(2){
+    margin-right: 190px;
+    margin-left: 10px;
+}
+.theme h3:nth-child(3){
+    color: black;
+}
+
+.cart h3{
+    color: white;
+    text-align: center;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@keyframes options{
+    0%{
+        left: -350px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+@keyframes options2{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: -350px;
+    }
+}
+
+.option2{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    margin: 9px;
+    height: 20px;
+    width: 30px;
+}
+
+.option2 div{
+    width: 45px;
+    height: 2px;
+    background: white;
+    /* margin: 9px; */
+}
+
+.option2 div:nth-child(1){
+    rotate: 45deg;
+}
+
+.option2 div:nth-child(2){
+    rotate: -45deg;
+}
+
+.search{
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+.search input{
+    width: 200px;
+    height: 30px;
+    border: solid 2px red;
+}
+
+.search button{
+    height: 30px;
+    border: none;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.form{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form input{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}
+
+.form button{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    /* border-radius: 10%; */
+    width: 300px;
+    margin: 10px;
+}
+
+.space{
+    height: 150px;
+}
+
+/* .space h1{
+    font-size: 4em;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    /* left: 700px; */
+    /* left: -700px; */
+    /* animation: animate 20s linear infinite;
+    overflow: hidden;
+    display: inline;
+} */
+/* 
+@keyframes animate {
+    0%{
+       left: 200vh;
+       color: rgb(0, 26, 255);
+    }
+    50%{
+        color: rgb(255, 0, 0);
+    }
+    100%{
+        left: -200vh;
+        color: rgb(55, 0, 255);
+    }
+} */ 
+
+.account1{
+    width: 350px;
+    display: inline-block;
+    /* color: white; */
+}
+
+.account1 p{
+   display: inline;
+   margin-left: 20px;
+}
+
+.account1 video{
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+}
+
+.sold{
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(100, 91, 91);
+    color: white;
+    /* padding: 0px; */
+    border: none;
+}
+
+.buy{
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    /* padding: 0px; */
+    border: none;
+}
+
+.account1 h4{
+    margin-left: 10px;
+    display: inline;
+}
+
+.account1 h3{
+    display: inline;
+    margin-left: 20px;
+}
+
+.cut{
+    text-decoration: line-through;
+}
+.payment h3{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.qrcode{
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+   position: relative;
+   top: 70px;
+
+}
+
+.qrcode img{
+    width: 300px;
+}
+
+
+.upi{
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.continue{
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+
+.continue a{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 300px;
+}
+.main-buttons{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.main-buttons a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    /* position: relative;
+    top: 10px; */
+}
+
+.b1{
+    position: relative;
+    top: -20px;
+}
+
+.b2{
+    position: relative;
+    top: 20px;
+}
+
+.ok{
+    text-decoration: none;
+    position: absolute;
+    right: 150px;
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.sell-form{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sell-form input{
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+}
+
+.sell-form button{
+    margin: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+}
