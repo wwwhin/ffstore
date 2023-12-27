@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(145, 150, 132);
+}
+.heading{
+    background-color: rgb(221, 255, 0);
+    height: 70px;
+}
+.heading h1{
+    background-color: rgb(221, 255, 0);
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.btns{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.btns a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    margin: 70px;
+    background-color: rgb(240, 109, 109);
+    padding: 20px;
+}
+.btns a:hover{
+    background-color: rgb(221, 255, 0);
+    color: black;
+}
+.about{
+    background-color: black;
+    height: 120px;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+}
+.about p {
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+.about p:hover{
+    color: aqua;
+}
+hr{
+    margin: 10px;
+}
+.update{
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
